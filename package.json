@@ -1,0 +1,30 @@
+{
+  "name": "baseline",
+  "version": "1.0.0",
+  "description": "a baseline for node/express projects",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx sequelize-cli db:create",
+    "start": "nodemon server.js"
+  },
+  "author": "nullcript",
+  "license": "ISC",
+  "dependencies": {
+    "@shokri/pliers": "^1.0.3",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.3.1",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "express-ejs-layouts": "^2.5.1",
+    "express-session": "^1.17.3",
+    "multer": "^1.4.5-lts.1",
+    "mysql2": "^3.6.1",
+    "sequelize": "^6.33.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.4",
+    "nodemon": "^3.0.1",
+    "sequelize-cli": "^6.6.1"
+  }
+}
