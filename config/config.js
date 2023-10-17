@@ -7,7 +7,7 @@ module.exports = {
     username: process.env.DB_USERNAME,
     password: process.env.DB_PASSWORD,
     port: process.env.DB_PORT,
-    database: "database-development",
+    database: "database_development",
     host: process.env.DB_HOST,
     dialect: process.env.DB_DIAL,
     // Use a different storage. Default: none
